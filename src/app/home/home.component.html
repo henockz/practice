@@ -1,0 +1,22 @@
+<div class="container color-dark">
+  <div class="col">
+    <p>Email Address: <input type="email" class="txt" name="email" placeholder="Email Address"  required="required" [(ngModel)]="email"></p>
+    <p>Parition Key: <input type="text" class="txt" name="partitionKey" placeholder="Partiton Key" required="required" min="0" step="1" [(ngModel)]="partitionKey"  ></p>
+     </div>
+  <div class="col">
+      <p>https://clover.membersuite.com/launch/ps-ms-replaceHint?emailAddress={{email}}&PartitionKey={{partitionKey}}</p>
+    </div>
+  </div>
+  <div class="container color-light">
+      <div class="col">
+        <p class="sm">col3</p>
+      </div>
+      <form>
+          <p class="sm">Partition Key:</p>  
+          <input type="number" class="txt" name="pk" placeholder="Partiton Key" required="required" min="0" step="1"  >
+          <input type="submit" class="btn" value="Go"/>
+        </form>
+      </div>
+      <div class="col">
+        <p class="life-container">Col5</p>
+      </div>
